@@ -32,13 +32,13 @@ Partial Class Form1
         ' 
         pictureBoxQRCode.Location = New Point(12, 12)
         pictureBoxQRCode.Name = "pictureBoxQRCode"
-        pictureBoxQRCode.Size = New Size(767, 634)
+        pictureBoxQRCode.Size = New Size(938, 823)
         pictureBoxQRCode.TabIndex = 0
         pictureBoxQRCode.TabStop = False
         ' 
         ' btnGenerateQRCode
         ' 
-        btnGenerateQRCode.Location = New Point(477, 652)
+        btnGenerateQRCode.Location = New Point(756, 865)
         btnGenerateQRCode.Name = "btnGenerateQRCode"
         btnGenerateQRCode.Size = New Size(94, 29)
         btnGenerateQRCode.TabIndex = 1
@@ -47,7 +47,7 @@ Partial Class Form1
         ' 
         ' Button1
         ' 
-        Button1.Location = New Point(676, 652)
+        Button1.Location = New Point(856, 865)
         Button1.Name = "Button1"
         Button1.Size = New Size(94, 29)
         Button1.TabIndex = 2
@@ -56,9 +56,9 @@ Partial Class Form1
         ' 
         ' Form1
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(8.0F, 20.0F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(873, 693)
+        ClientSize = New Size(985, 906)
         Controls.Add(Button1)
         Controls.Add(btnGenerateQRCode)
         Controls.Add(pictureBoxQRCode)
